@@ -22,7 +22,7 @@ if __name__ == '__main__':
 
     paths = glob.glob('wav/*.wav')
     total = len(paths)
-    for (count, path) in enumerate(sorted(paths)):
+    for (count, path) in enumerate(sorted(paths), start=1):
         transcript_path = os.path.join('trn', os.path.basename(path)[:-4] + '.trn')
         with open(transcript_path) as f:
             transcript = f.read().rstrip()
