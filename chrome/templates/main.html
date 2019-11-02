@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Google Chrome Speech Recognition</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+
+<script type="text/javascript">
+  window.onload = function f(){
+    var userAgent = window.navigator.userAgent.toLowerCase();
+    if (userAgent.indexOf('chrome') == -1) {
+      var body = document.getElementsByTagName('body')[0];
+      errMsg = '<h1>Google Chrome Speech Recognition</h1>';
+      errMsg += '<p>このコンテンツは Google Chrome 専用です</p>';
+      body.innerHTML = errMsg;
+    }
+  }
+</script>
+<script type="text/javascript" src="{{ url_for('static', filename='google_speech_recognition.js') }}"></script>
+<style type="text/css">
+body {
+    margin: 0;
+    text-align: center;
+    background-color: black;
+    color:white;
+}
+</style>
+</head>
+<body>
+  <h1>Google Chrome Speech Recognition</h1>
+  <p style="color: white; font-size: 150%;">INFO: <span id="info"></span></p>
+  <p style="color: white; font-size: 150%;">Result: <span id="google"></span></p>
+</body>
+</html>

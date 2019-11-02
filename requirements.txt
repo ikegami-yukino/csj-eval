@@ -1,0 +1,5 @@
+jiwer
+mecab
+numpy
+pydub
+tqdm
