@@ -1,7 +1,7 @@
 # csj-eval
 This repository aims at evaluating speech recognition system using the Corpus of Spontaneous Japanese (CSJ)
 
-CSJ is available at [https://pj.ninjal.ac.jp/corpus_center/csj/](https://clrd.ninjal.ac.jp/csj/index.html)
+CSJ is available at https://clrd.ninjal.ac.jp/csj/index.html
 
 ## Preparation
 
