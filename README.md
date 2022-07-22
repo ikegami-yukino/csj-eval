@@ -1,7 +1,7 @@
 # csj-eval
 This repository aims at evaluating speech recognition system using the Corpus of Spontaneous Japanese (CSJ)
 
-CSJ is available at https://pj.ninjal.ac.jp/corpus_center/csj/
+CSJ is available at [https://pj.ninjal.ac.jp/corpus_center/csj/](https://clrd.ninjal.ac.jp/csj/index.html)
 
 ## Preparation
 
@@ -25,7 +25,7 @@ $ ./split_wav.py --ignore_tag --ignore_kansuuji --ignore_anonymization --core /V
 
 ### Create recognized results from wav file by speech recognition system
 
-In this repository, `webkitSpeechRecognition` in Google Chrome is used as baseline.
+In this repository, `webkitSpeechRecognition` in the Google Chrome is used as a baseline.
 
 At first, run the Web application server as the following:
 
@@ -35,7 +35,7 @@ $  ./chrome/server.py
 
 Next, open http://127.0.0.1:5000/ by Google Chrome.
 
-Futhermore, connect USB audio interface to your computer.
+Futhermore, connect a USB audio interface to your computer.
 
 Finally, play wav files as the following:
 
